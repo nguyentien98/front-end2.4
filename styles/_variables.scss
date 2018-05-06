@@ -1,0 +1,71 @@
+nav.navbar{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+	.nav-item{
+		a.nav-link{
+			color: $linkcolor !important;
+			padding-bottom: 0.8rem;
+			&:hover{
+				border-bottom: 3px solid $maincolor;
+			}
+		}
+		&.active{
+			a.nav-link{
+				color: $maincolor !important;
+				border-bottom: 3px solid;
+			}
+		}
+	}
+}
+.breadcrumb{
+	@include front;
+	text-transform: uppercase;
+	.breadcrumb-item{
+		&:before{
+			color: #ffffff;
+			font-size: 11px;
+		}
+	}
+	a{
+		font-size: 0.7rem;
+		color: #FFF !important;
+	}
+}
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+.carousel{
+	img{
+		max-width: 100%;
+	}
+	.carousel-item{
+		cursor: pointer;
+	}
+}
+.btn-download{
+	height: 57px;
+	line-height: 57px;
+	background-color: $maincolor;
+	border: 1px solid $maincolor;
+	color: #FFF;
+	@include slab;
+	font-size: 20px;
+	&:hover{
+		color: $maincolor;
+		background-color: #fff;
+	}
+}

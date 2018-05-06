@@ -1,0 +1,9 @@
+@media screen and (max-width: 960px) {
+	.article__right{
+		border-left: none !important;
+		border-top: 1px solid $bordercolor;
+	}
+	footer{
+		margin-top: 2rem;
+	}
+}
