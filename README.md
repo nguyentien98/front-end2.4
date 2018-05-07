@@ -10,6 +10,8 @@ Người thực hiện: [ Tiến Nguyễn ](https://github.com/tiennguyen98)
 ## Liên kết
 
 * [Link bài online](http://nguyentien.me/front-end2.4/)
+* [Link ảnh](https://tiennguyen98.github.io/front-end2.4/img.html)
+* [Link PSD](https://github.com/tiennguyen98/front-end2.4/blob/master/Chi%20tiet.psd)
 * [Link mockup draw.io](https://drive.google.com/file/d/1HvLJNvZdIEFd5JYegih2ohxkg_bDbgqw/view)
 * [Link tìm hiểu về Bootstrap 4](https://gist.github.com/tiennguyen98/ebefe06b499a551a89a64de5f71640b6)
 
