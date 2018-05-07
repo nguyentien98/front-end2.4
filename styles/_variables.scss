@@ -5,6 +5,7 @@ nav.navbar{
 		a.nav-link{
 			color: $linkcolor !important;
 			padding-bottom: 0.8rem;
+			border-bottom: 3px solid #FFF;
 			&:hover{
 				border-bottom: 3px solid $maincolor;
 			}
